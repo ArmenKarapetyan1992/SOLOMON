@@ -1,0 +1,56 @@
+.home_1{
+  background-color: #FEB101 !important
+}
+.home_1_size_top{
+  width: 100%;
+  background-color: #FEB101 !important;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.slider11{
+  right: 0;
+  margin: auto;
+}
+.home_1_size_main_black{
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.home_1_size{
+  width: 100% !important;
+}
+.home_1_size_main_black p{
+width: auto;
+text-align: inherit;
+font-size: 70px;
+}
+.home_4_size{
+  margin-top: 0 ;
+}
+.home_2_line{
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.home_3{
+  margin-bottom: 80px;
+}
+.home_4_bottom{
+  margin-bottom: 150px;
+  margin-top: 60px;
+}
+.fund_price{
+  width: 100%;
+  display: flex;
+}
+.fund_price_left, .fund_price_right{
+  height: 20px;
+  width: 50%;
+}
+.fund_price_left{
+  background-color: #FF7600
+}
+.fund_price_right{
+  background-color: #D8D7D7
+}

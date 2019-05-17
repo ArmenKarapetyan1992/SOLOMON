@@ -57,7 +57,7 @@
 }
 
 .slider11{
-  width: 44%;
+  width: 38%;
 }
 #owl_two img, #owl_one img{
   height: 860px;
@@ -286,7 +286,7 @@ margin-top: 25px;
 }
 
 .slider11{
-  width: 44%;
+  width: 38%;
 }
 #owl_two img, #owl_one img{
   height: 760px;
@@ -510,7 +510,7 @@ margin-top: 25px;
 }
 
 .slider11{
-  width: 44%;
+  width: 38%;
 }
 #owl_two img, #owl_one img{
   height: 660px;
@@ -742,7 +742,7 @@ margin-top: 0px;
 }
 
 .slider11{
-  width: 44%;
+  width: 38%;
 }
 #owl_two img, #owl_one img{
   height: 500px;
@@ -927,6 +927,63 @@ margin-top: 0px;
   height: 40px;
   font-size: 10px;
 }
+.modal-content{
+margin-top: 0px;
+}
+.modal-dialog {
+    max-width: 330px;
+}
+
+.modal-header{
+  padding: 3px 10px 0 0;
+
+}
+.modal_top_logo{
+  margin-bottom: 20px;
+}
+.modal_top_logo img{
+width: 40px;
+}
+.modal_inputs {
+  width: 100%;
+}
+.modal_inputs input{
+font-size: 16px;
+width: 90%;
+height: 35px;
+margin: 0 auto 10px auto;
+padding-left: 15px;
+}
+.modal_inputs button{
+  font-size: 16px;
+width: 90%;
+height: 35px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.modal_checkbox input{
+width: 13px;
+height: 13px;
+margin: 0;
+}
+.modal_checkbox p{
+  font-size: 14px;
+  margin-left: 10px;
+}
+.modal_checkbox {
+width: 100%;
+}
+.modal_Already{
+   font-size: 14px;
+}
+.modal_login_btn{
+  margin: 20px 0;
+}
+.modal_privacy{
+   font-size: 10px;
+}
+
 }
 @media screen and (max-width:700px) {
   .slider11{

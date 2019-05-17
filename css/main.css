@@ -177,6 +177,10 @@ header{
 }
 .home_1_size_top_right img{
   margin-left: 30px;
+  cursor: pointer;
+}
+.home_1_size_top_right img:hover{
+border: 1px solid
 }
 .home_1_size_main{
   margin-top: 250px;
@@ -226,7 +230,7 @@ header{
   position: absolute;
   left: 0;
   top: 0;
-  width: 44%;
+  width: 38%;
 }
 #owl_two img, #owl_one img{
   height: 960px;
@@ -538,4 +542,77 @@ margin-top: 30px;
   justify-content: center;
   font-size: 14px;
   border-top: 1px solid  #464646;
+}
+.modal-content{
+margin-top: 95px;
+}
+.modal-dialog {
+    max-width: 430px;
+}
+.modal-header, .modal-footer{
+  border: none;
+}
+.modal-header{
+  padding: 8px 13px 0 0;
+
+}
+.modal_top_logo{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.modal_inputs {
+  width: 100%;
+  text-align: center;
+}
+.modal_inputs input{
+font-family: "LATO-SEMIBOLD";
+font-size: 20px;
+font-weight: 600;
+color: #cbcaca;
+width: 316px;
+height: 40px;
+border: solid 2px #cccccc;
+background-color: #ffffff;
+margin-bottom: 17px;
+padding-left: 15px;
+}
+.modal_inputs button{
+  font-family: "LATO-SEMIBOLD";
+  font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+width: 316px;
+height: 40px;
+background-color: #ff7600;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+.modal_checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal_checkbox input{
+width: 13px;
+height: 13px;
+margin: 0;
+}
+.modal_checkbox p{
+  font-size: 16px;
+  margin-left: 15px;
+  font-family: "LATO-SEMIBOLD";
+}
+.modal_Already{
+   font-size: 16.5px;
+     font-family: "LATO-SEMIBOLD";
+}
+.modal_login_btn{
+  background-color: #fff !important;
+  color: #000 !important;
+  margin: 25px 0;
+  border: 1px solid #ff7600;
+}
+.modal_privacy{
+   font-size: 12px;
+        font-family: "LATO-SEMIBOLD";
 }

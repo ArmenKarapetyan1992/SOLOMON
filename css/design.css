@@ -1,0 +1,74 @@
+p{
+  margin-bottom: 0 !important;
+}
+.and_put{
+  font-size: 48px !important;
+  font-family: "LATO-SEMIBOLD";
+}
+.your_name_on_it{
+  font-size: 72px !important;
+  font-family: "LATO-SEMIBOLD";
+}
+.home_1_size_main_black p{
+  width: 68% !important;
+}
+.design_clear{
+  width: 100%;
+  height: 170px;
+}
+@media screen and (max-width:1700px) {
+  .and_put{
+    font-size: 45px !important;
+  }
+  .your_name_on_it{
+    font-size: 68px !important;
+  }
+  .home_1_size_main_black p{
+    width: 68% !important;
+  }
+  .design_clear{
+    height: 150px;
+  }
+}
+@media screen and (max-width:1500px) {
+  .and_put{
+    font-size: 30px !important;
+  }
+  .your_name_on_it{
+    font-size: 50px !important;
+  }
+  .home_1_size_main_black p{
+    width: 68% !important;
+  }
+  .design_clear{
+    height: 120px;
+  }
+}
+@media screen and (max-width:992px) {
+  .and_put{
+    font-size: 26px !important;
+  }
+  .your_name_on_it{
+    font-size: 40px !important;
+  }
+  .home_1_size_main_black p{
+    width: 80% !important;
+  }
+  .design_clear{
+    height: 60px;
+  }
+}
+@media screen and (max-width:700px) {
+  .and_put{
+    font-size: 24px !important;
+  }
+  .your_name_on_it{
+    font-size: 35px !important;
+  }
+  .home_1_size_main_black p{
+    width: 100% !important;
+  }
+  .design_clear{
+    height: 30px;
+  }
+}
