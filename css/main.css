@@ -124,7 +124,12 @@ header{
     display: flex;
     align-items: center;
 }
-
+.dropdown-menu li a{
+  color: #000;
+}
+.dropdown-menu li {
+text-align: center;
+}
 .home_1{
   width: 100%;
   background-color:#dde1e4;
