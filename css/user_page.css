@@ -1,0 +1,328 @@
+.user_1{
+    font-family: "LATO-SEMIBOLD";
+    width: 62%;
+    margin: 0 auto 30px;
+}
+.home_1 {
+    width: 100%;
+    background-color: #fff;
+    padding:  40px 0 0 0 ;
+    position: relative;
+    height: auto;
+}
+.user_1_top{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user_1_top_2{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 47px;
+background-color: #dde1e4;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 1.6px;
+cursor: pointer;
+}
+.active{
+background-color: #ff7600
+}
+.donations_main{
+  width: 100%;
+}
+/* .user_1_top_2 :hover{
+background-color: #ff7600
+} */
+.user_1_main{
+  width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.user_1_main_size{
+  max-width: 82%;
+}
+
+#user2, #user3, #user4{
+ display: none;
+}
+.donations_top{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+.donations_top p{
+ width: 60%;
+ font-size: 18px;
+}
+
+.settings{
+  width: 60%;
+  margin: 0 auto;
+}
+.settings p{
+  font-size: 20px;
+font-weight: 600;
+margin-bottom: 22px;
+}
+.settings_top_inpts{
+  margin-bottom: 30px;
+}
+.settings_top_inpts input{
+  width: 287px;
+height: 40px;
+border: solid 2px #ebebeb;
+background-color: #ffffff;
+padding-left: 20px;
+margin-right: 20px;
+}
+.settings_top_img{
+  margin-bottom: 30px;
+}
+.settings_top_img img{
+  width: 100px;
+}
+.settings_bottom_inp{
+  width: 100%;
+  height: 40px;
+  border: solid 2px #ebebeb;
+  background-color: #ffffff;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.settings_bottom_pass{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.settings_bottom_pass p{
+margin: 0 20px 0 0;
+}
+.settings select{
+  width: 100%;
+  height: 40px;
+border: solid 2px #ebebeb;
+background-color: #ffffff;
+margin-bottom: 60px;
+
+}
+.settings_bottom_btns{
+  text-align: center;
+  margin-bottom: 120px;
+}
+.settings_bottom_btns button{
+  width: 30%;
+  min-width: 120px;
+height: 40px;
+background-color: #ff7600;
+font-size: 20px;
+font-weight: 600;
+color: #ffffff;
+}
+.list{
+  margin-left:10px;
+  font-size: .8em;
+}
+.faq-section p {
+  padding-left: 10px;
+}
+/*Add some spacing*/
+.faq-section{
+    margin: 40px 0;
+        position: relative;
+}
+
+/*Hide the paragraphs*/
+.faq-section div{
+    display: none;
+}
+
+/*Hide the checkboxes */
+.faq-section input{
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+    display: none; /* IE8 and below */
+    margin: 0;
+    width: 100%;
+    height: 36px;
+}
+
+/*Show only the clipped intro*/
+.faq-section label{
+    display: block;
+    color: #333;
+    font-size: .85em;
+    transition: all .15s ease-out;
+    /* Clipping text */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*If the checkbox is checked, show all paragraphs*/
+.faq-section input[type=checkbox]:checked~div{
+    display: block;
+    color: #444;
+    font-size: 1em;
+    /* restore clipping defaults */
+    text-overflow: clip;
+    white-space: normal;
+    overflow: visible;
+}
+
+/*Style the label*/
+.faq-section label{
+    font-size: 1.2em;
+    background: #eee;
+    display: block!important;
+    position: relative;
+        height: 36px;
+    padding: 7px 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-left: 3px solid #888;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    transition: all .15s ease-out;
+}
+
+/*Remove text selection when toggle-ing*/
+.faq-section label::selection{
+    background: none;
+}
+
+.faq-section label:hover{
+    background: #f5f5f5;
+}
+
+
+/*If the checkbox is checked, style the label accordingly*/
+.faq-section input[type=checkbox]:checked~label{
+    border-color: #184ac7;
+    background: #e1e9f7;
+    background-image: linear-gradient(to bottom, #fff, #e1e9f7);
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
+}
+
+/*Label's arrow - default state */
+.faq-section label::before{
+    content: '';
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    margin-top: -6px;
+    border: 6px solid transparent;
+    border-left-color: inherit;
+}
+
+/*Update the right arrow*/
+.faq-section input[type=checkbox]:checked~label::before{
+    border: 6px solid transparent;
+    border-top-color: inherit;
+    margin-top: -3px;
+    right: 10px;
+}
+@media screen and (max-width: 1700px) {
+  .user_1{
+      width: 72%;
+  }
+  .home_1 {
+      padding:  40px 0 0 0 ;
+  }
+  .user_1_top_2{
+    width: 20%;
+    height: 47px;
+  font-size: 18px;
+  }
+  .user_1_main_size{
+    max-width: 82%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .donations_top p{
+   width: 70%;
+   font-size: 18px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .donations_top p{
+   width: 80%;
+   font-size: 18px;
+  }
+  .user_1{
+      width: 82%;
+  }
+  .home_1 {
+      padding:  40px 0 0 0 ;
+  }
+  .user_1_top_1 img{
+    width: 150px;
+  }
+  .user_1_top_2{
+    width: 20%;
+    height: 47px;
+  font-size: 18px;
+  }
+  .user_1_main_size{
+    max-width: 82%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .donations_top p{
+   width: 90%;
+   font-size: 18px;
+  }
+  .user_1{
+      width: 85%;
+  }
+  .user_1_top{
+    flex-direction: column;
+  }
+  .home_1 {
+      padding:  40px 0 0 0 ;
+  }
+  .user_1_top_1 img{
+    width: 150px;
+  }
+  .user_1_top_2{
+    width: 20%;
+    min-width: 180px;
+    height: 35px;
+  font-size: 16px;
+  margin-top: 10px;
+  }
+  .user_1_main_size{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .user_1{
+      width: 95%;
+  }
+  .user_1_top{
+    flex-direction: column;
+  }
+  .home_1 {
+      padding:  40px 0 0 0 ;
+  }
+  .user_1_top_1 img{
+    width: 150px;
+  }
+  .user_1_top_2{
+    width: 20%;
+    min-width: 180px;
+    height: 35px;
+  font-size: 16px;
+  margin-top: 10px;
+  }
+  .user_1_main_size{
+    max-width: 100%;
+  }
+  .user_1_main{
+    justify-content: center;
+  }
+}

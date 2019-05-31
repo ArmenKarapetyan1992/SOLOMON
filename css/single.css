@@ -7,10 +7,6 @@
 .home_4_bottom {
     margin-bottom: 100px;
 }
-
-
-
-
 .modal-dialog {
     max-width: 64.5%;
 }
@@ -103,7 +99,22 @@ font-weight: bold;
     color: #fff;
     margin: 0 auto;
 }
-
+.logo_paid{
+  margin-top: 60px;
+  width: 100%;
+  border: 1px solid #18b255;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo_paid button{
+  width: 200px;
+  height: 40px;
+  background-color: #18b255;
+  color: #fff;
+  margin-left: 10px;
+}
 @media screen and (max-width:1500px) {
   .home_2_line{
     margin-bottom: 50px;
@@ -141,6 +152,15 @@ font-weight: bold;
     width: 170px;
     height: 35px;
       font-size: 16px;
+  }
+  .logo_paid{
+    margin-top: 30px;
+    padding: 30px 0;
+  }
+  .logo_paid button{
+    width: 160px;
+    height: 40px;
+    margin-left: 10px;
   }
 }
 @media screen and (max-width:1280px) {
@@ -188,7 +208,20 @@ font-weight: bold;
     height: 33px;
       font-size: 15px;
   }
+  .logo_paid{
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+  .logo_paid img{
+    width: 90px;
+  }
+  .logo_paid button{
+    width: 140px;
+    height: 30px;
+    margin-left: 10px;
+  }
 }
+
 @media screen and (max-width:800px) {
   .modal-dialog {
     max-width: 90%;
@@ -258,5 +291,17 @@ font-weight: bold;
   }
   .home_4_bottom {
       margin-bottom: 30px;
+  }
+  .logo_paid{
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+  .logo_paid img{
+    width: 60px;
+  }
+  .logo_paid button{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
   }
 }
